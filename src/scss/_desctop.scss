@@ -68,11 +68,18 @@ footer {
       padding: 47px 20px 0 20px;
     }
   }
+ 
+  .logga{
+    padding-left: 13px;
+  }
 
   .slogan_box {
     background: #f1f1f1;
     font-size: 12px;
+    display: flex;
     flex-direction: row;
+    padding: 7px 25px 7px 25px;
+    justify-content: space-between;
     
     .slogan {
       
@@ -81,6 +88,15 @@ footer {
 
     .menu {
 
+      .menu_gap {
+        padding: 0 6px 0 4px;
+        border-left: 1px solid $black;
+      }
+
+     .red_text {
+       color: $orange;
+       font-weight: bold;
+     } 
     }
   }
 }
@@ -102,16 +118,16 @@ footer {
     left: 10px;
     width: 20px;
     display: inline;
+    border: 1px solid green;
     
-    img {
-      width: 16px;
-      height: 16px;
-    }
+   
+     .whitedot {
+       border: 1px solid yellow;
+       color: $white;
+       display: inline;
+     }
 
-    .whitedot {
-      color: $white;
-      border: 1PX SOLID RED;
-    }
+   
   }
 
   .jumbotron_text {
@@ -157,12 +173,12 @@ footer {
     .education_cousesInPlace {
       font-size: 18px;
       display: flex;
-      justify-content: space-between;
+      
 
       .education_courseBox {
         flex-direction: row;
-        line-height: 1.5;
         width: 190px;
+
                       
         a {
           color: $black;
@@ -171,7 +187,9 @@ footer {
          a:hover {
            color: $orange;
         }
-
+        .link_gap {
+          padding: 5px 0 5px 0;
+        }
         
       }
     }
@@ -180,19 +198,15 @@ footer {
         //font-family: 'Arial W01 Black', sans-serif;
         font-weight: bold;
         font-size: 1em;
-        padding-top: 20px;
+        padding-top: 10px;
       }
 
       .education_course {
         text-decoration: none;
-        font-size: 16px;
-      
+        font-size: 15px;
+        padding: 10px 0 10px 0;
       }
-    
-      .education_course:hover{
-       
-      }
-  }
+   }
 }
 
  .education_firstBox {
@@ -276,10 +290,6 @@ footer {
     padding: 5px;
   }
 
-  input {
-    border: 1px solid red;
-  }
-
   .news_text {
     font-size: 13px;
     
@@ -313,9 +323,21 @@ footer {
       padding: 10px 0 4px 0;
     }
   }
+
+  .input_email {
+    width: 150px;
+    font-size: 12px;
+    height: 15px;
+  }
+
+  .input_submit {
+    font-size: 12px;
+    height: 20px;
+  }
 }
 
 
 .dottedLine {
   border-right: 1px dotted grey;  
-}
+  margin-right: 15px;
+}  

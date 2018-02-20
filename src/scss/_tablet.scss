@@ -122,20 +122,25 @@ footer {
   .education_box {
    
    .education_cousesInPlace {
-      font-size: 18px;
+      font-size: 22px;
       display: flex;
+      width: 698px;
 
       .education_courseBox {
         flex-direction: row;
-        width: 450px;
+        width: 300px;
+        padding-right: 15px;
 
         a {
           color: $black;
         }
        
-        .dottedLine {
-           border-right: 1px dotted grey; 
-           padding-right: 10px;
+        a:hover {
+           color: $orange;
+        }
+
+        .link_gap {
+          padding: 5px 0 5px 0;
         }
 
       }
@@ -150,7 +155,7 @@ footer {
 
       .education_course {
         text-decoration: none;
-        font-size: 1em;
+        font-size: 14px;
       }
     }
   }
@@ -259,4 +264,20 @@ footer {
        display: none;
     }
   }
+
+  .input_email {
+    width: 150px;
+    font-size: 12px;
+    height: 15px;
+  }
+
+  .input_submit {
+    font-size: 12px;
+    height: 20px;
+  }
+}
+
+ .dottedLine {
+  border-right: 1px dotted grey; 
+   margin-right: 15px;
 }
