@@ -102,10 +102,15 @@ footer {
     left: 10px;
     width: 20px;
     display: inline;
-
+    
     img {
       width: 16px;
       height: 16px;
+    }
+
+    .whitedot {
+      color: $white;
+      border: 1PX SOLID RED;
     }
   }
 
@@ -143,7 +148,7 @@ footer {
     color: $black;
   }
 
-  
+   
   .education_box {
      color: $black;
      padding-right: 30px;
@@ -157,7 +162,7 @@ footer {
       .education_courseBox {
         flex-direction: row;
         line-height: 1.5;
-        width: 220px;
+        width: 190px;
                       
         a {
           color: $black;
@@ -214,14 +219,28 @@ footer {
     height: 180px;
   }
 
+  .education_textInner {
+    flex-direction: column;
+    padding: 0 0 0 1em; 
+    overflow: hidden;
+  }
+
   .education_link {
     color: #e64925;
   }
 
   .education_title {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.0;
   }
+
+  .education_paragraph {
+     font-size: 12px;
+     line-height: 1.5;
+     padding-top: 5px;
+  }  
 }  
 
 .transparentBox{
@@ -298,5 +317,5 @@ footer {
 
 
 .dottedLine {
-  border-right: 1px dotted grey; 
+  border-right: 1px dotted grey;  
 }
