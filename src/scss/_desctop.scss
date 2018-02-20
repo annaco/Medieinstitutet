@@ -1,0 +1,302 @@
+body {
+  background: $background;
+  font-family: 'Arial W01 Regular', sans-serif;
+}
+
+footer {
+  background: $black;
+  height: 100px;
+  width: 990px;
+  margin: 0 auto; 
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+
+
+   .social {
+    justify-content: flex-end;
+  }
+
+  .footer_text {
+
+  }
+  
+  .contant_name {
+    text-align: right;
+    
+  }
+
+  .contact_city {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.orangeText {
+ color: $orange;
+}
+
+.blackText {
+ color: $black;
+}
+
+.whiteText {
+ color: $white;
+}
+
+.wrapper {
+  width: 990px;
+  margin: 0 auto;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+
+  .innerwrapper {
+    padding: 30px;
+    width: 600px;  
+    display: flex;
+    flex-direction: row;
+
+    .leftwrapper {
+         
+    }
+
+    .sidebarwrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 47px 20px 0 20px;
+    }
+  }
+
+  .slogan_box {
+    background: #f1f1f1;
+    font-size: 12px;
+    flex-direction: row;
+    
+    .slogan {
+      
+      
+    }
+
+    .menu {
+
+    }
+  }
+}
+
+.jumbotron {
+  position: relative;
+  border: 14px solid $black;
+
+  #slideshowImages {
+    img {
+      height: 250px;
+      width: 100%;
+    }
+  }
+
+  .circle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 20px;
+    display: inline;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .jumbotron_text {
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    color: $black;
+    background: #e64925;
+    width: 300px;
+    padding: 10px 50px 10px 15px;
+    
+    .jumbotron_textLarge {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+
+    .jumbotron_textSmall {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+} 
+
+.education {
+  color: $black;
+
+  .education_title {
+    font-family: 'Arial W01 Regular', sans-serif;
+    font-size: 22px;
+    font-weight:900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $black;
+  }
+
+  
+  .education_box {
+     color: $black;
+     padding-right: 30px;
+
+    
+    .education_cousesInPlace {
+      font-size: 18px;
+      display: flex;
+      justify-content: space-between;
+
+      .education_courseBox {
+        flex-direction: row;
+        line-height: 1.5;
+        width: 220px;
+                      
+        a {
+          color: $black;
+        }
+
+         a:hover {
+           color: $orange;
+        }
+
+        
+      }
+    }
+      .education_place {
+        font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+        //font-family: 'Arial W01 Black', sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        padding-top: 20px;
+      }
+
+      .education_course {
+        text-decoration: none;
+        font-size: 16px;
+      
+      }
+    
+      .education_course:hover{
+       
+      }
+  }
+}
+
+ .education_firstBox {
+   display: none;
+ }
+    
+.education_set {
+  display: flex;
+  flex-direction: row;
+}
+
+.education_text {
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  background: $brown;
+  width: 280px;
+  height: 180px;
+  margin:10px 30px 10px 0px;
+
+  
+  img {
+    width: 160px;
+    height: 180px;
+  }
+
+  .education_link {
+    color: #e64925;
+  }
+
+  .education_title {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}  
+
+.transparentBox{
+  width: 200px;
+  height: auto;
+  padding: 0px 15px 15px 0;
+ 
+  .blackBackground {
+    background: $black;
+    padding: 5px;
+
+    a {
+      text-decoration: none;
+      color: $orange;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: $white;
+    }
+  }
+
+  .orangeText {
+    color: $orange;
+  }
+
+  .whiteText {
+    color: $white;
+  }
+
+  .greyBackground{
+    background: #f2f2f2;
+    padding: 5px;
+  }
+
+  input {
+    border: 1px solid red;
+  }
+
+  .news_text {
+    font-size: 13px;
+    
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.linkNoLine {
+  text-decoration: none;
+}
+
+.sidebarwrapper {
+  display: flex;
+  flex-direction: row;
+
+  .apply {
+    background: $black;
+    color: $white;
+    height: auto;
+    font-weight: bold;
+    padding: 5px;
+
+    .apply_first {
+      padding: 4px 0 6px 0;
+    }
+
+    .apply_second {
+      padding: 10px 0 4px 0;
+    }
+  }
+}
+
+
+.dottedLine {
+  border-right: 1px dotted grey; 
+}

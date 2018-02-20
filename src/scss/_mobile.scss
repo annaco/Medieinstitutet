@@ -1,0 +1,191 @@
+body {
+  
+}
+
+.wrapper {
+  max-width: 787px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+
+  .logga {
+    width: 150px;
+  }
+  .slogan_box {
+    display: none;
+  }
+}
+
+.jumbotron {
+  position: relative;
+  border: 10px solid $black;
+  overflow: hidden;
+
+  img {
+    height: 230px;
+    width: 100%;
+  }
+
+  .jumbotron_text {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    color: $black;
+    background: #e64925;
+    width: 300px;
+    padding: 10px 50px 10px 15px;
+    
+    .jumbotron_textLarge {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+
+    .jumbotron_textSmall {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}
+
+.education {
+  display: none;
+}
+
+.education_text {
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  
+
+   img {
+      width: 80px;
+      height: 120px;
+    }
+
+  .education_textInner {
+    flex-direction: column;
+    padding: 0 0 0 2em; 
+
+   .education_location {
+
+    }
+
+    .education_link {
+      color: $orange;
+    }
+
+    .education_title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .education_paragraph {
+      font-size: 14px;
+    }
+  }
+}  
+
+  
+
+  .applyHere {
+    text-transform: uppercase;
+    color: #df863c;
+  }
+
+  .orange {
+    color: $orange;
+  }
+
+  .white {
+    color: $white;
+  }
+
+
+  .sidebarwrapper {
+    
+   .applyHover {
+      position: absolute;
+      text-transform: uppercase;
+      color: #df863c;
+      text-decoration: none;
+      bottom: 0;
+      text-align: center;
+      
+      a{
+        font-family: 'Arial W01 Regular', sans-serif;
+      }
+      
+
+    }
+
+    .arrow {
+      display: none;
+    }
+
+    .apply {
+      display: none;
+
+        .apply_first {
+          display: none;
+        }
+
+        .apply_second {
+          display: none;
+        }
+      }
+  }
+
+.footer_extra {
+   position: relative;
+}  
+
+footer {
+ 
+  background: $black;
+  height: 100px; 
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+
+  .social {
+    justify-content: flex-end;
+  }
+
+  .footer_text {
+    font-size: 12px;
+  }
+
+  .social_media {
+    padding: 1px;
+
+    img {
+      width: 31px;
+      height: auto;
+    }
+  }
+
+  .contant_name {
+    text-align: right;
+  }
+
+  .contact_city {
+    text-align: right;
+  }
+
+  .orangeText {
+    color: $orange;
+  }
+
+  .blackText {
+    color: $black;
+  }
+
+  .whiteText {
+    color: $white;
+  }
+}  
+
+ .noMobile {
+     display: none;
+  }
