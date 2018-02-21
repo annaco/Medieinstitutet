@@ -6,19 +6,21 @@ body {
 footer {
   background: $black;
   height: 100px;
-  width: 990px;
+  width: 930px;
   margin: 0 auto; 
-  padding: 20px 0 0 30px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
 
 
    .social {
     justify-content: flex-end;
   }
 
-  .footer_text {
-
+   .footer_text {
+    font-size: 16px;
+    justify-content: flex-end;
   }
   
   .contant_name {
@@ -151,12 +153,13 @@ footer {
     .jumbotron_textLarge {
       font-weight: 900;
       text-transform: uppercase;
-      font-size: 24px;
+      font-size: 20px;
+      padding-bottom: 4px;
     }
 
     .jumbotron_textSmall {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 } 
