@@ -16,6 +16,31 @@ body {
   }
 }
 
+ .circle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+
+   
+    .whitedot {
+      background: $white;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
+    .whitedot:focus, .whitedot:active {
+      background: $orange;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 3px solid $white;
+    }
+  }  
+
 .jumbotron {
   position: relative;
   border: 10px solid $black;
@@ -147,6 +172,7 @@ footer {
   padding: 16px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 
   .social {
     justify-content: flex-end;
@@ -154,6 +180,7 @@ footer {
 
   .footer_text {
     font-size: 12px;
+    justify-content: flex-end;
   }
 
   .social_media {

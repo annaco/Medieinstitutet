@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
+  $('.first').css({"background":"#e64925","width":"10px","height":"10px","border-radius":"50%","border":"3px solid #fff"});
+
   var images =[];
+  var imagesText = []
   var i = 0;
  
   var jumbotronPicture =["jumbo1.jpg", "jumbo2.jpg", "jumbo3.jpg"];
@@ -37,10 +40,10 @@ $(document).ready(function() {
     
      console.log(i);
      images = ("<img src=images/" + jumbotronPicture[i] + ">"+ "<br>"); 
-     jumbotronText = (jumbotronText[i][1] + "<br>");
+     imagesText = ("<div class='jumbotron_textLarge'>" + jumbotronText[i][0] + "</div>"+ "<div class='jumbotron_textSmall'>" + jumbotronText[i][1] + "</div>");
           
      document.getElementById('slideshowImages').innerHTML = images;
-     document.getElementById('slideshowText').innerHTML = jumbotronText;
+     document.getElementById('slideshowText').innerHTML = imagesText;
   }
 
 
